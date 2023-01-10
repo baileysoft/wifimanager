@@ -1,4 +1,4 @@
 #!/bin/sh
 
 chmod +x ./wifimanager
-sudo cp ./wifimanager /bin/wifimanager
+doas cp ./wifimanager /bin/wifimanager
